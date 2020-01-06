@@ -1,0 +1,559 @@
+{
+    "login": [
+        {
+            "index": 1,
+            "account": "USER",
+            "password": "0000",
+            "name": "人員1",
+            "department": "all",
+            "auth": 1,
+            "switch": 1,
+            "grade": 4,
+            "duty": "銷售",
+            "skill": "銷售",
+            "workTime": "08:00~17:00"
+        },
+        {
+            "index": 2,
+            "account": "TEST2",
+            "password": "0000",
+            "name": "人員2",
+            "department": "poster",
+            "auth": 1,
+            "switch": 1,
+            "grade": 2,
+            "duty": "銷售",
+            "skill": "銷售",
+            "workTime": "08:00~17:00"
+        },
+        {
+            "index": 3,
+            "account": "admin",
+            "password": "0000",
+            "name": "admin",
+            "department": "all",
+            "auth": 1,
+            "switch": 1,
+            "grade": 5,
+            "duty": "管理",
+            "skill": "管理",
+            "workTime": "10:00~19:00"
+        }
+    ],
+    "departments": [
+        {
+            "index": 1,
+            "code": "poster",
+            "name": "產品1",
+            "switch": 1
+        },
+        {
+            "index": 2,
+            "code": "card",
+            "name": "產品2",
+            "switch": 1
+        },
+        {
+            "index": 3,
+            "code": "ink",
+            "name": "產品3",
+            "switch": 1
+        },
+        {
+            "index": 4,
+            "code": "digit",
+            "name": "產品4",
+            "switch": 1
+        }
+    ],
+    "mainData": {
+        "poster": {
+            "2019-12-01": {
+                "total": 2500,
+                "web": 2300,
+                "offline": 200,
+                "convert_success": 2465,
+                "convert_fail": 20,
+                "convert_wrong": 15,
+                "details": {
+                    "TEST": {
+                        "web": 1100,
+                        "offline": 90,
+                        "returns": 10
+                    },
+                    "TEST2": {
+                        "web": 1200,
+                        "offline": 110,
+                        "returns": 30
+                    }
+                }
+            },
+            "2019-12-02": {
+                "total": 2800,
+                "web": 2620,
+                "offline": 80,
+                "convert_success": 2726,
+                "convert_fail": 50,
+                "convert_wrong": 24,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-03": {
+                "total": 2246,
+                "web": 2008,
+                "offline": 238,
+                "convert_success": 2206,
+                "convert_fail": 30,
+                "convert_wrong": 10,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-04": {
+                "total": 2484,
+                "web": 2264,
+                "offline": 220,
+                "convert_success": 2440,
+                "convert_fail": 44,
+                "convert_wrong": 0,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-05": {
+                "total": 2847,
+                "web": 2544,
+                "offline": 303,
+                "convert_success": 2752,
+                "convert_fail": 73,
+                "convert_wrong": 22,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-06": {
+                "total": 1550,
+                "web": 1430,
+                "offline": 120,
+                "convert_success": 1459,
+                "convert_fail": 75,
+                "convert_wrong": 16,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            }
+        },
+        "card": {
+            "2019-12-01": {
+                "total": 4005,
+                "web": 3724,
+                "offline": 281,
+                "convert_success": 3804,
+                "convert_fail": 201,
+                "convert_wrong": 0,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-02": {
+                "total": 5352,
+                "web": 4816,
+                "offline": 536,
+                "convert_success": 5192,
+                "convert_fail": 157,
+                "convert_wrong": 3,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-03": {
+                "total": 2246,
+                "web": 2008,
+                "offline": 238,
+                "convert_success": 2206,
+                "convert_fail": 30,
+                "convert_wrong": 10,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-04": {
+                "total": 2484,
+                "web": 2264,
+                "offline": 220,
+                "convert_success": 2440,
+                "convert_fail": 44,
+                "convert_wrong": 0,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-05": {
+                "total": 2847,
+                "web": 2544,
+                "offline": 303,
+                "convert_success": 2752,
+                "convert_fail": 73,
+                "convert_wrong": 22,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-06": {
+                "total": 2550,
+                "web": 2430,
+                "offline": 120,
+                "convert_success": 2459,
+                "convert_fail": 75,
+                "convert_wrong": 16,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            }
+        },
+        "ink": {
+            "2019-12-01": {
+                "total": 2500,
+                "web": 1500,
+                "offline": 1000,
+                "convert_success": 2465,
+                "convert_fail": 20,
+                "convert_wrong": 15,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-02": {
+                "total": 2800,
+                "web": 2620,
+                "offline": 80,
+                "convert_success": 2726,
+                "convert_fail": 50,
+                "convert_wrong": 24,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-03": {
+                "total": 2246,
+                "web": 2008,
+                "offline": 238,
+                "convert_success": 2206,
+                "convert_fail": 30,
+                "convert_wrong": 10,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-04": {
+                "total": 2484,
+                "web": 1264,
+                "offline": 1220,
+                "convert_success": 2440,
+                "convert_fail": 44,
+                "convert_wrong": 0,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-05": {
+                "total": 2847,
+                "web": 1544,
+                "offline": 1303,
+                "convert_success": 2752,
+                "convert_fail": 73,
+                "convert_wrong": 22,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-06": {
+                "total": 1450,
+                "web": 930,
+                "offline": 520,
+                "convert_success": 1459,
+                "convert_fail": 75,
+                "convert_wrong": 16,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            }
+        },
+        "digit": {
+            "2019-12-01": {
+                "total": 4005,
+                "web": 2724,
+                "offline": 2281,
+                "convert_success": 3804,
+                "convert_fail": 201,
+                "convert_wrong": 0,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-02": {
+                "total": 5352,
+                "web": 1816,
+                "offline": 2536,
+                "convert_success": 5192,
+                "convert_fail": 157,
+                "convert_wrong": 3,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-03": {
+                "total": 2246,
+                "web": 1008,
+                "offline": 1238,
+                "convert_success": 2206,
+                "convert_fail": 30,
+                "convert_wrong": 10,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-04": {
+                "total": 2484,
+                "web": 1864,
+                "offline": 620,
+                "convert_success": 2440,
+                "convert_fail": 44,
+                "convert_wrong": 0,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-05": {
+                "total": 2847,
+                "web": 1544,
+                "offline": 1303,
+                "convert_success": 2752,
+                "convert_fail": 73,
+                "convert_wrong": 22,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            },
+            "2019-12-06": {
+                "total": 1550,
+                "web": 830,
+                "offline": 720,
+                "convert_success": 1459,
+                "convert_fail": 75,
+                "convert_wrong": 16,
+                "details": {
+                    "TEST": {
+                        "web": 1559,
+                        "offline": 60,
+                        "returns": 0
+                    },
+                    "TEST2": {
+                        "web": 1061,
+                        "offline": 20,
+                        "returns": 26
+                    }
+                }
+            }
+        }
+    }
+}
